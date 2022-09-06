@@ -49,7 +49,7 @@ opt.ignorecase      = true              -- bool: Ignore case in search patterns
 opt.smartcase       = true              -- bool: Override ignorecase if search contains capitals
 opt.incsearch       = true              -- bool: Use incremental search
 opt.hlsearch        = true              -- bool: Highlight search matches
-opt.list            = true              -- Show some invisible characters
+opt.list            = false             -- Show some invisible characters
 
 -- [[ Tab Options ]]
 opt.autoindent      = true
