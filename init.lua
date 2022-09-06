@@ -35,8 +35,7 @@ local cmd               = vim.cmd       -- vim command
 opt.mouse           = 'a'               -- Enable mouse support
 opt.clipboard       = 'unnamedplus'     -- Copy/paste to system clipboard
 opt.swapfile        = false             -- Don't use swapfile
-opt.completeopt     = 'menuone,noinsert,noselect'  -- Autocomplete options
-opt.wildmode = {'list','longest'}       -- Command-line completion mode
+--opt.wildmode = {'list','longest'}       -- Command-line completion mode
 opt.completeopt = {'menuone', 'noinsert', 'noselect'}  -- Completion options (for deoplete)
 
 -- [[ UI Options ]]
