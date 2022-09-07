@@ -15,16 +15,13 @@ require('statusline')
 require('packer')
 require('packer').startup(function()
     use 'wbthomason/packer.nvim'
-    use 'navarasu/onedark.nvim'
+    use 'bluz71/vim-nightfly-guicolors'
     use 'nvim-lualine/lualine.nvim'
     use 'kyazdani42/nvim-web-devicons'
 end)
 
 -- [[ COLORSCHEMA ]]
-require('onedark').setup {
-    style = 'dark'                    -- THEMES = dark, darker, cool, deep, warm, warmer
-}
-require('onedark').load()
+vim.cmd[[colorscheme nightfly]]
 
 -- [[ LOCAL VARIABLES ]]
 local global            = vim.g         -- For the opts options
