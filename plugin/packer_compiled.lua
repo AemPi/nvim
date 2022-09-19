@@ -89,6 +89,16 @@ _G.packer_plugins = {
     path = "/Users/mpro/.local/share/nvim/site/pack/packer/start/packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
   },
+  ["plenary.nvim"] = {
+    loaded = true,
+    path = "/Users/mpro/.local/share/nvim/site/pack/packer/start/plenary.nvim",
+    url = "https://github.com/nvim-lua/plenary.nvim"
+  },
+  ["telescope.nvim"] = {
+    loaded = true,
+    path = "/Users/mpro/.local/share/nvim/site/pack/packer/start/telescope.nvim",
+    url = "https://github.com/nvim-telescope/telescope.nvim"
+  },
   ["vim-nightfly-guicolors"] = {
     loaded = true,
     path = "/Users/mpro/.local/share/nvim/site/pack/packer/start/vim-nightfly-guicolors",
