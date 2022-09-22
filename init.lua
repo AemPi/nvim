@@ -12,6 +12,7 @@ example Folder structure
 
 -- [[ IMPORTS ]]
 require('statusline')
+require('keymaps')
 require('packer')
 require('packer').startup(function()
     use 'wbthomason/packer.nvim'
