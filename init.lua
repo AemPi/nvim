@@ -12,5 +12,6 @@ require('packer').startup(function()
     use 'kyazdani42/nvim-web-devicons'
     use 'nvim-telescope/telescope.nvim'
     use 'nvim-lua/plenary.nvim'
+    use {'windwp/nvim-autopairs', config = function() require("nvim-autopairs").setup {} end}
 end)
 
