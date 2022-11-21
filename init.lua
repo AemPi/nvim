@@ -3,6 +3,7 @@
 -- [[ IMPORTS ]]
 require('options')
 require('statusline')
+require('winbar')
 require('keymaps')
 require('packer')
 require('packer').startup(function()

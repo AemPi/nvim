@@ -28,6 +28,8 @@ opt.incsearch       = true              -- bool: Use incremental search
 opt.hlsearch        = true              -- bool: Highlight search matches
 opt.list            = false             -- Show some invisible characters
 
+opt.winbar = "%{%v:lua.require'.winbar'.winbar()%}"
+
 -- [[ Tab Options ]]
 opt.autoindent      = true
 opt.expandtab       = true              -- Use spaces instead of tabs
